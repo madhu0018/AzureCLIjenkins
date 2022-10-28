@@ -1,5 +1,5 @@
 pipeline {
-    agent {label "all"}
+    agent any
     stages {
          stage ('invocationshells crpt') {
             steps {
@@ -7,7 +7,7 @@ pipeline {
                 sh 'vm1.sh' 
             }
         }
-    }git 
+    }
 
 }
 
