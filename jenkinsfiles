@@ -5,8 +5,7 @@ pipeline {
             steps {
                 sh'ls'
 		        sh'chmod 777 vm.sh'
-                sh'll'
-                sh'vm.sh'
+                 sh'vm.sh'
                
             }
         }
