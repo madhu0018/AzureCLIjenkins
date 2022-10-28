@@ -3,6 +3,7 @@ pipeline {
     stages {
          stage ('invocationshells crpt') {
             steps {
+                sh'curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash'
                 sh'ls'
 		        sh'chmod 777 vm.sh'
                  sh'./vm.sh'
