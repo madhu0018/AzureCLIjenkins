@@ -4,9 +4,9 @@ pipeline {
          stage ('invocationshells crpt') {
             steps {
                 sh'ls'
-		    sh'chmod 777 vm.sh'
-                sh 'vm.sh' \
-                sh 'll'
+		     sh'chmod 777 vm.sh'
+                sh'vm.sh'
+                sh'll'
             }
         }
     }
