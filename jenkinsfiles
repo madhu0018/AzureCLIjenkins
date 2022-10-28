@@ -1,5 +1,5 @@
 pipeline {
-    agent {Label 'AZNSG'}
+    agent{label 'AZNSG'}
     stages {
          stage ('invocationshells crpt') {
             steps {
